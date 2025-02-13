@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>main first page</p>
     <HomeHeader></HomeHeader>
+    <HomeLanding></HomeLanding>
   </div>
 </template>
 

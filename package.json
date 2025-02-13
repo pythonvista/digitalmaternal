@@ -5,7 +5,7 @@
     "build": "nuxt build",
     "postinstall": "nuxt prepare",
     "start": "nuxt start",
-    "dev": "nuxt dev --port 3001"
+    "dev": "nuxt dev --port 3000"
   },
   "devDependencies": {
     "@mdi/font": "^7.2.96",
