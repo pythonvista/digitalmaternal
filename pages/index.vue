@@ -4,6 +4,7 @@
     <HomeLanding></HomeLanding>
     <HomeDonation></HomeDonation>
     <HomeAboutUs></HomeAboutUs>
+    <HomeTesting></HomeTesting>
     
   </div>
 </template>
