@@ -2,6 +2,9 @@
   <div>
     <HomeHeader></HomeHeader>
     <HomeLanding></HomeLanding>
+    <HomeDonation></HomeDonation>
+    <HomeAboutUs></HomeAboutUs>
+    
   </div>
 </template>
 
