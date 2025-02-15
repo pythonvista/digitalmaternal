@@ -29,7 +29,7 @@
 
     <div class="second-header bg-basecolor pl-32 pr-32 flex items-center justify-between xs:h-[101px] xs:pl-2 xs:pr-2 sm:pl-5 sm:pr-5">
       <div class="left-section  flex items-center gap-10">
-        <span class="logo hover:scale-110 transition-transform duration-300"><a href=""><img src="@/assets/img/Logo.png" alt=""></a></span>
+        <span class="logo hover:scale-110 transition-transform duration-300"><a href=""><img src="@/assets/img/logo.png" alt=""></a></span>
 
         <span class="links flex gap-10 sm:hidden xs:hidden lg:flex">
           <a href="" class=" text-lg font-medium hover:text-accent duration-300 text-[#575757] ">Home</a>
