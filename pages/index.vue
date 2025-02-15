@@ -4,6 +4,8 @@
     <HomeLanding></HomeLanding>
     <HomeDonation></HomeDonation>
     <HomeAboutUs></HomeAboutUs>
+    <HomeDigitalSolution></HomeDigitalSolution>
+    <HomeAnother></HomeAnother>
     <HomeTesting></HomeTesting>
     
   </div>
