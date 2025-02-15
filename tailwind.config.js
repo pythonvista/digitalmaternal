@@ -3,7 +3,7 @@ module.exports = {
     content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     presets: [],
     darkMode: 'media', // or 'class'
-    theme: {
+  theme: {
       screens: {
         xs: '100px',
         sm: '640px',
@@ -19,10 +19,13 @@ module.exports = {
         current: colors.current,
         transparent: colors.transparent,
         primary: '#A020F0',
-        prigreen:'#02E44C',
-        priblue: '#5D153A',
-        lightgreen: '#FFE8F4',
-        slatepri: '#F4F3F3',
+        secondary:'#7123B3',
+        basecolor: '#F2F1EC',
+        accent: '#BC3EB9',
+        accent1: '#FFE8F4',
+        accent2: '#EBEBEB',
+        accent3: '#44535F',
+        accent4: '#575757',
         black: colors.black,
         white: colors.white,
         slate: colors.slate,
