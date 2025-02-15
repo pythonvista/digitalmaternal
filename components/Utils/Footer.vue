@@ -35,7 +35,7 @@
         <div class="grid grid-cols-2 gap-12 mt-12 sm:grid-cols-3 lg:grid-cols-4 sm:mt-16 lg:mt-20">
             <div class="col-span-2 sm:col-span-3 lg:col-span-1">
                 <a href="#" title="" class="flex">
-                    <img class="w-auto h-16" src="@/assets/img/Logo.png" alt="" />
+                    <img class="w-auto h-16" src="@/assets/img/logo.png" alt="" />
                 </a>
 
                 <p class="mt-8 text-base font-normal text-gray-500">Monitoring Data for Social Impact-MODSI is a platform for collecting and analyzing data</p>
