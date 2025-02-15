@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full overflow-hidden bg-accent2 border-t-2 border-b-2 border-solid grid grid-cols-5"
+    class="w-full overflow-hidden border-t-2 border-b-2 border-solid grid grid-cols-5"
   >
     <div class="xs:col-span-5 md:col-span-3 bg-orange-200 h-full w-full">
       <img src="@/assets/img/Pictures2G.png" alt="" />
@@ -13,7 +13,8 @@
         class="xs:w-full overlay-text bg-[#7123B3E8] py-10 xl:p-16 xs:h-full md:h-auto md:w-[800px] xs:p-3 md:-ml-[300px]"
       >
         <div class="overlay-header xl:text-white xs:text-white">
-          <h2 class="xs:text-3xl md:text-5xl">Implementation</h2>
+          <p class="text-2xl pb-3">About us</p>
+          <h2 class="xs:text-3xl md:text-5xl">Who we are</h2>
         </div>
 
         <div

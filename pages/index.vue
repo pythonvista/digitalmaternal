@@ -5,13 +5,19 @@
     <HomeDonation></HomeDonation>
     <HomeAboutUs></HomeAboutUs>
     <HomeDigitalSolution></HomeDigitalSolution>
+    <HomeSolutions></HomeSolutions>
     <HomeAnother></HomeAnother>
-    <HomeTesting></HomeTesting>
+    <HomeProject></HomeProject>
+    <HomeGallary></HomeGallary>
+    <HomeSponsors></HomeSponsors>
+    <UtilsFooter></UtilsFooter>
     
   </div>
 </template>
 
 <script>
+
+
 
 export default {
   

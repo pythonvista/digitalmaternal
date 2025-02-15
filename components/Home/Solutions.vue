@@ -1,18 +1,13 @@
 <template>
-  <section class="w-full overflow-hidden bg-accent2 border-t-2 border-b-2 border-solid grid grid-cols-5">
-    <div class="xs:col-span-5 md:col-span-3 bg-orange-200 h-full w-full">
-         <img src="@/assets/img/Picture.png" alt="">
-    </div>
-
-    <div class="xs:col-span-5 md:col-span-2 flex justify-center items-center h-full  w-full">
-        <div class="xs:w-full  overlay-text bg-[#7123B3E8] py-10  xl:p-16 xs:h-full md:h-auto md:w-[800px] xs:p-3  md:-ml-[300px] ">
+  <section class="w-full bg-accent2 overflow-hidden border-t-2 border-b-2 border-solid grid grid-cols-5">
+       <div class="xs:col-span-5 md:col-span-2 flex justify-center items-center h-full  w-full">
+        <div class="xs:w-full  overlay-text bg-[#7123B3E8] py-10  xl:p-16 xs:h-full md:h-auto md:w-[800px] xs:p-3  md:-mr-[300px] z-[1] ">
             <div class="overlay-header xl:text-white xs:text-white">
-                        <p class=" text-2xl pb-3">About us</p>
-                        <h2 class=" xs:text-3xl md:text-5xl">Who we are</h2>
+                        <h2 class=" xs:text-3xl md:text-5xl">Our Approach</h2>
                     </div>
 
                     <div class="overlay-content xl:text-white xl:text-base xs:text-white pt-3 xl:w-full xs:w-full ">
-                        <p>At TAAF we see a society with increased maternal and child life span-a Nigeria where women live through and after pregnancy and neonatal death is almost if not completely absent in the country. Our Mission is to introduce more inclusive and creative programs that will drive the consciousness of safe motherhood practices to all concerned stakeholders with view of promoting maternal, newborn and child health through top level advocacy, trainings and awareness campaigns.</p>
+                        <p>Determine the primary issues to be addressed and Define the aim clearly, develop benchmarks, and determine which solution best satisfies those criteria.</p>
                     </div>
 
                     <div class="overlay-button text-white border-2 border-white xs:w-full md:w-36 h-12 rounded-3xl flex items-center justify-center mt-7 hover:bg-accent duration-300 hover:border-accent">
@@ -26,6 +21,11 @@
                     </div>
         </div>
     </div>
+    <div class="xs:col-span-5 md:col-span-3 bg-orange-200 h-full w-full">
+         <img src="@/assets/img/Pictures1G.png" alt="">
+    </div>
+
+ 
    
     
 

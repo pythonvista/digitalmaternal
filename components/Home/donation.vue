@@ -1,10 +1,10 @@
 <template>
-  <section class=" xl:h-[100px] xl:bg-accent2">
-    <div class="donation-container xl:flex xl:items-center xl:justify-center xl:flex-row xl:h-[100px] gap-5 xs:flex xs:flex-col xs:justify-center xs:items-center xs:h-48 xs:bg-accent2">
+  <section class=" py-8 bg-accent2">
+    <div class="donation-container xl:flex xl:items-center xl:justify-center xl:flex-row  gap-5 xs:flex xs:flex-col xs:justify-center xs:items-center  ">
       <span><p class="xs:text-lg xl:text-lg xs:font-semibold text-accent4">Make your impact today</p></span>
 
       <span class="">
-        <div class="rounded-[50px] h-[40px] w-[250px] border border-accent flex items-center pl-4 gap-3">
+        <div class="rounded-[50px] py-6 w-[250px] border border-accent flex items-center pl-4 gap-3">
           <img src="@/assets/img/Vector.png" alt="">
           <input type="text" placeholder="Enter your amount" class=" border-none focus: outline-none">
         </div>

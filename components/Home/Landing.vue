@@ -2,8 +2,8 @@
   <section>
     <div class="landing-page-container">
       
-      <div class="landing-background-image xl:relative xs:static">
-        <img src="@/assets/img/Pictures.png" class=" inset-0 bg-gradient-to-b from-black/100 to-transparent" alt="">
+      <div  class="landing-background-image  xl:relative xs:static">
+        <img src="@/assets/img/Pictures.png" class=" inset-0 bg-gradient-to-b from-black/50 to-transparent" alt="">
         <div class="landing-text">
           <div class="landing-text xl:absolute xl:text-white xl:top-36 xl:left-24 xs:text-accent4 xs:static xl: bg-transparent xs:bg-basecolor xs:h-72 xs:p-4  ">
             <h1 class=" xl:text-8xl  xs:text-2xl xl:text-white">Digital Solutions For <br> Maternal Health</h1>
