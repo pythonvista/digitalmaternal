@@ -1,6 +1,6 @@
 <template>
   <section class="w-full bg-accent2 overflow-hidden border-t-2 border-b-2 border-solid grid grid-cols-5">
-       <div class="xs:col-span-5 md:col-span-2 flex justify-center items-center h-full  w-full">
+       <div class="xs:col-span-5 xs:order-last md:order-first md:col-span-2 flex justify-center items-center h-full  w-full">
         <div class="xs:w-full  overlay-text bg-[#7123B3E8] py-10  xl:p-16 xs:h-full md:h-auto md:w-[800px] xs:p-3  md:-mr-[300px] z-[1] ">
             <div class="overlay-header xl:text-white xs:text-white">
                         <h2 class=" xs:text-3xl md:text-5xl">Our Approach</h2>

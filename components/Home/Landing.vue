@@ -2,12 +2,13 @@
   <section>
     <div class="landing-page-container">
       
-      <div  class="landing-background-image  xl:relative xs:static">
-        <img src="@/assets/img/Pictures.png" class=" inset-0 bg-gradient-to-b from-black/50 to-transparent" alt="">
+      <div  class="landing-background-image md:min-h-[80vh] md:bg-[url('https://i.imgur.com/vYVB5HS.png')] md:bg-cover md:bg-center   xl:relative xs:static">
+        <div class="absolute xs:hidden md:block inset-0 bg-gradient-to-t from-black to-transparent"></div>
+        <img src="@/assets/img/Pictures.png" class=" xs:block md:hidden inset-0 bg-gradient-to-b from-black/50 to-transparent" alt="">
         <div class="landing-text">
           <div class="landing-text xl:absolute xl:text-white xl:top-36 xl:left-24 xs:text-accent4 xs:static xl: bg-transparent xs:bg-basecolor xs:h-72 xs:p-4  ">
-            <h1 class=" xl:text-8xl  xs:text-2xl xl:text-white">Digital Solutions For <br> Maternal Health</h1>
-            <p class="mt-6 xl:text-lg mb-4 xs:text-sm xl:text-white">Monitoring Data for Social Impact-MODSI is a platform for collecting and analyzing data, to best <br> contribute to intervention by all stakeholders on maternal and reproductive health issues <br> in Nigeria</p>
+            <h1 class=" xs:text-3xl font-bold xl:text-8xl   xl:text-white">Digital Solutions For <br> Maternal Health</h1>
+            <p class="mt-6 xl:text-lg mb-2 xs:text-md xl:text-white">Monitoring Data for Social Impact-MODSI is a platform for collecting and analyzing data, to best <br> contribute to intervention by all stakeholders on maternal and reproductive health issues <br> in Nigeria</p>
             <span class="relative w-12 h-12 group mt-5">
               <a href="" class="absolute inset-0 w-full h-full opacity-100 group-hover:opacity-0 transition-opacity duration-300">
                 <svg class="xs: fill-accent lg:fill-none" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">

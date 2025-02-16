@@ -34,7 +34,7 @@
         <span class="links flex gap-10 sm:hidden xs:hidden lg:flex">
           <a href="" class=" text-lg font-medium hover:text-accent duration-300 text-[#575757] ">Home</a>
           <a href="" class=" text-lg font-medium  hover:text-accent duration-300  text-[#575757]">Our articles</a>
-          <a href="" class=" text-lg font-medium  hover:text-accent duration-300  text-[#575757]">Stories</a>
+          <a href="@/components/Home/About us/AboutHeader.vue" class=" text-lg font-medium  hover:text-accent duration-300  text-[#575757]">Stories</a>
           <a href="" class=" text-lg font-medium  hover:text-accent duration-300  text-[#575757]">Contact</a>
           
         </span>

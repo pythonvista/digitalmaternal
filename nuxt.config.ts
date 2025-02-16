@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Innovate Skill-up',
+      title: 'Digital Solutions',
       meta: [
         {
           name: 'description',
-          content: 'Innovate Skill-up',
+          content: 'Digital Solutions',
         },
       ],
       link: [
