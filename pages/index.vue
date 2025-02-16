@@ -1,16 +1,17 @@
 <template>
   <div>
-    <HomeHeader></HomeHeader>
+    
     <HomeLanding></HomeLanding>
     <HomeDonation></HomeDonation>
+     <HomeDigitalSolution></HomeDigitalSolution>
     <HomeAboutUs></HomeAboutUs>
-    <HomeDigitalSolution></HomeDigitalSolution>
+   
     <HomeSolutions></HomeSolutions>
     <HomeAnother></HomeAnother>
     <HomeProject></HomeProject>
     <HomeGallary></HomeGallary>
     <HomeSponsors></HomeSponsors>
-    <UtilsFooter></UtilsFooter>
+   
     
   </div>
 </template>
