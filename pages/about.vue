@@ -1,9 +1,11 @@
 <template>
-    <div class="py-10">
+    <div class="py-10 ">
  <HomeAboutHeader></HomeAboutHeader>
   <HomeAboutValue></HomeAboutValue>
   <HomeAboutVentures></HomeAboutVentures>
+  <HomeAboutOurProject></HomeAboutOurProject>
   <HomeAboutPastProject></HomeAboutPastProject>
+  <HomeAboutCard></HomeAboutCard>
     </div>
  
 </template>
