@@ -6,6 +6,8 @@
   <HomeAboutOurProject></HomeAboutOurProject>
   <HomeAboutPastProject></HomeAboutPastProject>
   <HomeAboutCard></HomeAboutCard>
+  <HomeAboutDonations></HomeAboutDonations>
+  <HomeAboutVolunteer></HomeAboutVolunteer>
     </div>
  
 </template>
