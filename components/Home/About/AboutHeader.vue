@@ -4,8 +4,8 @@
       <p class="uppercase text-base font-semibold tracking-widest">The story started</p>
       <p class="uppercase md:text-5xl xs:text-xl md:py-10 xs:py-2 font-bold">About us</p>
     </div>
-    <div class="px-36 xs:px-10">
-      <p class="xs:text-base md:text-lg">
+    <div class="md:px-36 xs:px-5">
+      <p class="xs:text-base xs:text-center md:text-left md:text-lg">
         Theodora Anavhe Adamu Foundation (TAAF) was founded in memory of Theodora Adamu.
         At TAAF we see a society with increased maternal and child life span. A Nigeria
         where women live through and after pregnancy and neonatal death is almost if not
@@ -17,7 +17,7 @@
 
       <div class="py-10">
         <p class="font-semibold text-base tracking-wider text-center py-5">The journey</p>
-        <p class="xs:text-base md:text-lg">
+        <p class="xs:text-base md:text-lg xs:text-center md:text-left">
           On the 17th of December 2012, our world took another turn from our loss. We had
           waited 8 months in excitement to welcome our sister Theodora Anavhe Adamu’s son
           only to be given a rude shock by death. Theodora had suffered eclampsia which

@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full px-4">
+  <div class="w-full bg-accent2 px-4">
  <section
-    class="w-full bg-accent2 rounded-md overflow-hidden border-t-8 border-b-8 py-14 border-solid grid grid-cols-5"
+    class="w-full  rounded-md overflow-hidden border-t-8 border-b-8 py-14 border-solid grid grid-cols-5"
   >
     <div
       class="xs:col-span-5 xs:order-last md:order-first md:col-span-2 flex justify-center items-center h-full w-full"
@@ -50,7 +50,7 @@
   </section>
 
   <section
-    class="w-full overflow-hidden bg-accent2 rounded-md rounded-md border-t-2 border-b-2 border-solid grid grid-cols-5"
+    class="w-full overflow-hidden  rounded-md border-t-2 border-b-2 border-solid grid grid-cols-5"
   >
     <div class="xs:col-span-5 md:col-span-3  h-full w-full">
       <img class="w-full object-cover" src="@/assets/img/visions.jpg" alt="" />
@@ -104,7 +104,7 @@
   </section>
 
   <section
-    class="w-full bg-accent2 rounded-md overflow-hidden border-t-8 border-b-8 py-14 border-solid grid grid-cols-5"
+    class="w-full  rounded-md overflow-hidden border-t-8 border-b-8 py-14 border-solid grid grid-cols-5"
   >
     <div
       class="xs:col-span-5 xs:order-last md:order-first md:col-span-2 flex justify-center items-center h-full w-full"
@@ -151,7 +151,7 @@
   </section>
 
   <section
-    class="w-full overflow-hidden bg-accent2 rounded-md border-t-2 border-b-2 border-solid grid grid-cols-5"
+    class="w-full overflow-hidden  rounded-md border-t-2 border-b-2 border-solid grid grid-cols-5"
   >
     <div class="xs:col-span-5 md:col-span-3  h-full w-full">
       <img src="@/assets/img/believe.jpg" class="w-full object-cover" alt="" />
