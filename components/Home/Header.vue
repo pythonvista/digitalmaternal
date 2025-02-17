@@ -27,9 +27,9 @@
       </div>
     </div>
 
-    <div class="second-header bg-basecolor pl-32 pr-32 flex items-center justify-between xs:h-[101px] xs:pl-2 xs:pr-2 sm:pl-5 sm:pr-5">
+    <div class="second-header bg-basecolor pl-32 pr-32 flex items-center justify-between  xs:pl-2 xs:pr-2 sm:pl-5 sm:pr-5">
       <div class="left-section  flex items-center gap-10">
-        <span class="logo hover:scale-110 transition-transform duration-300"><a href=""><img src="@/assets/img/logo.png" alt=""></a></span>
+        <span class="logo hover:scale-110 transition-transform duration-300"><a @click="$router.push({path: '/'})"><img class="w-[80%]" src="@/assets/img/logo.png" alt=""></a></span>
 
         <span class="links flex gap-10 sm:hidden xs:hidden lg:flex">
           <a href="" class=" text-lg font-medium hover:text-accent duration-300 text-[#575757] ">Home</a>
@@ -55,17 +55,17 @@
 
           </span>
 
-          <div class="search hover:scale-110 transition-transform duration-300">
+          <!-- <div class="search hover:scale-110 transition-transform duration-300">
             <a href="" class=" hover: ">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.1 20.5125L13.5 14.9125C13 15.3125 12.425 15.6292 11.775 15.8625C11.125 16.0958 10.4333 16.2125 9.69995 16.2125C7.88328 16.2125 6.34578 15.5833 5.08745 14.325C3.82912 13.0667 3.19995 11.5292 3.19995 9.71249C3.19995 7.89583 3.82912 6.35833 5.08745 5.09999C6.34578 3.84166 7.88328 3.21249 9.69995 3.21249C11.5166 3.21249 13.0541 3.84166 14.3125 5.09999C15.5708 6.35833 16.2 7.89583 16.2 9.71249C16.2 10.4458 16.0833 11.1375 15.85 11.7875C15.6166 12.4375 15.3 13.0125 14.9 13.5125L20.525 19.1375C20.7083 19.3208 20.8 19.5458 20.8 19.8125C20.8 20.0792 20.7 20.3125 20.5 20.5125C20.3166 20.6958 20.0833 20.7875 19.8 20.7875C19.5166 20.7875 19.2833 20.6958 19.1 20.5125ZM9.69995 14.2125C10.95 14.2125 12.0125 13.775 12.8875 12.9C13.7625 12.025 14.2 10.9625 14.2 9.71249C14.2 8.46249 13.7625 7.39999 12.8875 6.52499C12.0125 5.64999 10.95 5.21249 9.69995 5.21249C8.44995 5.21249 7.38745 5.64999 6.51245 6.52499C5.63745 7.39999 5.19995 8.46249 5.19995 9.71249C5.19995 10.9625 5.63745 12.025 6.51245 12.9C7.38745 13.775 8.44995 14.2125 9.69995 14.2125Z" fill="#BC3EB9"/>
               </svg>
 
             </a>
-          </div>
+          </div> -->
 
-          <div class="hamburger hover:scale-110 transition-transform duration-300">
-            <a href="">
+          <div  class="hamburger hover:scale-110 transition-transform duration-300">
+            <a @click="toggle" class="cursor-pointer">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_195_790" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                 <rect width="24" height="24" fill="#D9D9D9"/>
@@ -87,7 +87,7 @@
 
 <script>
 export default {
-
+props: ['toggle']
 }
 </script>
 
