@@ -19,7 +19,7 @@
           v-for="(item, index) in allBlogs"
           :key="index"
           @click="OpenBlog(item)"
-          class="p-6 transition-all cursor-pointer duration-200 bg-gray-800 rounded-2xl"
+          class="p-6 transition-all cursor-pointer duration-200 bg-[#9C27B0] rounded-2xl"
         >
           <a
             title=""
@@ -44,16 +44,16 @@
             @click="OpenBlog(item)"
             class="flex items-center justify-between mt-6"
           >
-            <p class="text-sm font-medium text-gray-300">
+            <p class="text-sm font-medium text-gray-100">
               <a href="#" title="" class=""> {{ item.title }} </a>
             </p>
 
-            <p class="text-sm font-medium text-gray-400">
+            <p class="text-sm font-medium text-gray-200">
               {{ item.created_at?.split("T")[0] }}
             </p>
           </div>
 
-          <hr class="my-5 border-gray-700" />
+          <hr class="my-5 border-white" />
 
           <h3
             @click="OpenBlog(item)"
@@ -75,9 +75,9 @@ let axios;
 let nuxt;
 export default {
   setup() {
-    definePageMeta({
-      layout: "home",
-    });
+    // definePageMeta({
+    //   layout: "home",
+    // });
   },
   data: () => ({
     blogs: [],
@@ -87,7 +87,7 @@ export default {
   }),
 
   created() {
-    store = useRechargeStore();
+    // store = useRechargeStore();
     nuxt = useNuxtApp();
     axios = nuxt.$UseAxios;
   },
@@ -95,10 +95,7 @@ export default {
     this.GetBlogs();
   },
   computed: {
-    userData() {
-      let userData = store.userData || {};
-      return userData;
-    },
+   
 
     allBlogs() {
       return this.blogs.filter((v) => v.category.toLowerCase() == "blogs");
