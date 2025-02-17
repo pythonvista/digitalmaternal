@@ -21,6 +21,14 @@ export default {
   data: () => ({
     drawer: true,
   }),
+   mounted() {
+    if (this.$route?.query?.id) {
+      this.$router.push({
+        path: '/blog/info', query: {
+        id:this.$route?.query?.id
+      }})
+    }
+  }
 };
 </script>
 
