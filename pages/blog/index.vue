@@ -95,8 +95,6 @@ export default {
     this.GetBlogs();
   },
   computed: {
-   
-
     allBlogs() {
       return this.blogs.filter((v) => v.category.toLowerCase() == "blogs");
     },
@@ -116,9 +114,15 @@ export default {
           this.loader = false;
           let items = data.value;
           if (items.length > 0) {
-            this.blogs.splice(0, 0, ...items);
-            // ShowSnack("New Data ooo", "positive");
-            this.initCount = end;
+            let uniqueItems = items.filter(
+              (newItem) =>
+                !this.blogs.some((existing) => existing.docid === newItem.docid)
+            );
+
+            if (uniqueItems.length > 0) {
+              this.blogs.push(...uniqueItems); // Prepend new blogs
+              this.initCount = end; // Update count only if new items were added
+            }
           }
         } else {
           throw {};
