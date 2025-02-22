@@ -17,9 +17,8 @@
           class="overlay-content xl:text-white xl:text-lg xs:text-white pt-3 xl:w-full xs:w-full"
         >
           <p>
-            TAAF uses innovative ideas and partnerships to bring about capacity building,
-            advocacy to relevant stakeholders, creating demand and increasing access to
-            Sexual Reproductive Health and Rights, care, and support.
+           To drive safe motherhood practices through advocacy, digital health innovation, and community engagement.
+
           </p>
         </div>
 

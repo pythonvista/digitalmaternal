@@ -1,36 +1,50 @@
 <template>
   <section
-    class="w-full overflow-hidden bg-accent2 border-t-2 border-b-2 border-solid grid grid-cols-5"
+    class="w-full overflow-hidden bg-accent2 border-t-2 border-b-2 border-solid grid grid-cols-6"
   >
-    <div class="xs:col-span-5 md:col-span-3 bg-orange-200 h-full w-full">
+    <div class="xs:col-span-6 md:col-span-3 bg-orange-200 h-full w-full">
       <img src="@/assets/img/Pictures2G.png" alt="" />
     </div>
 
     <div
-      class="xs:col-span-5 md:col-span-2 flex justify-center items-center h-full w-full"
+      class="xs:col-span-6 md:col-span-3 flex justify-center items-center h-full w-full"
     >
       <div
-        class="xs:w-full overlay-text bg-[#7123B3E8] py-10 xl:p-16 xs:h-full md:h-auto md:w-[800px] xs:p-3 md:-ml-[300px]"
+        class="xs:w-full flex flex-col justify-center items-start px-10 overlay-text bg-[#7123B3E8] py-10 xl:p-16 xs:h-full xs:p-3"
       >
         <div class="overlay-header xl:text-white xs:text-white">
-          <h2 class="xs:text-3xl md:text-5xl">Implementation</h2>
+          <h2 class="xs:text-3xl md:text-5xl">How We Make It Happen</h2>
         </div>
 
         <div
           class="overlay-content xl:text-white xl:text-base xs:text-white pt-3 xl:w-full xs:w-full"
         >
           <ul class="pt-2">
-            <li>1. Get stakeholders buy in.</li>
-            <li>2. Identify and map location to pilot.</li>
-            <li>3. Identify key performance indicator to organizations impact.</li>
-            <li>4. Establish support group and continues M&E practices.</li>
+            <li>
+              1. Stakeholder Collaboration: Engage healthcare workers,
+              government agencies & tech
+            </li>
+            <li>
+              2. Pilot Programs: Test digital health solutions in key locations.
+            </li>
+            <li>
+              3. Impact Measurement: Track key performance indicators (KPIs) for
+              effectiveness.
+            </li>
+            <li>
+              4. Sustained Support: Establish community networks & ongoing
+              monitoring.
+            </li>
           </ul>
         </div>
 
         <div
           class="overlay-button text-white border-2 border-white xs:w-full md:w-36 h-12 rounded-3xl flex items-center justify-center mt-7 hover:bg-accent duration-300 hover:border-accent"
         >
-          <a @click="$router.push({path: '/about'})"  class="flex gap-3 px-3 items-center">
+          <a
+            @click="$router.push({ path: '/about' })"
+            class="flex gap-3 px-3 items-center"
+          >
             Read more
             <svg
               width="25"

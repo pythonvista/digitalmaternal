@@ -2,9 +2,9 @@
   <div class="project relative py-16 overflow-hidden">
     <div class="header-wrapper">
       <div class="header flex items-center justify-center flex-col pb-7">
-        <h1 class="text-xl">Project</h1>
+        <h1 class="text-2xl font-bold">Project</h1>
         <div class="border-b-2 border-black w-[160px] pt-1"></div>
-        <h2 class="text-lg font-bold pt-1">Ongoing Project</h2>
+        <h2 class="text-lg text-purple-500 font-bold pt-1">Ongoing Project</h2>
       </div>
     </div>
 
@@ -21,10 +21,22 @@
           <p
             class="xs:text-base md:text-lg xs:text-center md:text-left font-medium"
           >
-            Our project Maisha save a mother’s life seeks to address these
-            problems through awareness and advocacy programs. Maisha is a Swahli
-            word which means life.
+            Through advocacy & awareness campaigns, we empower communities with
+            the knowledge to reduce maternal mortality rates. 📍 Impact: Trained
+            100+ birth attendants & educated 10,000+ women on safe pregnancy
+            practices. Distributed 2,000+ of mama kits to women in IDP camps and
+            low income communities
           </p>
+          <div>
+            <q-btn
+              :to="{
+                path: '/blog/info',
+                query: { id: '07969f3f-8e22-4065-8b72-8ae2fbde1468' },
+              }"
+              color="purple"
+              >Read More</q-btn
+            >
+          </div>
         </div>
 
         <div
@@ -39,7 +51,7 @@
       </div>
     </section>
 
-    <section class="relative px-10 mt-10 border-solid">
+    <section class="relative px-10 mt-10 mb-10 border-solid">
       <div class="content-wrapper h-full w-full grid grid-cols-2 gap-10">
         <div
           class="project-right xs:col-span-2 xs:order-last md:order-first md:col-span-1 z-[11] flex justify-center items-center w-full relative"
@@ -56,20 +68,30 @@
           <p
             class="font-bold xs:text-2xl xs:text-center md:text-left md:text-6xl text-accent4"
           >
-            Her Hygiene & Her (HHH) Campaign
+            HER Hygiene & HER (HHH) Campaign
           </p>
           <p
             class="xs:text-base md:text-lg xs:text-center md:text-left font-medium"
           >
-            It’s about health. It’s about helping girls everywhere to manage
-            menstruation in a way that doesn’t put them at risk of infections
-            that are at best avoidable.
+            We promote menstrual hygiene management to help young girls stay
+            safe, healthy & confident. 📍 Impact: Distributed 10,000+ sanitary
+            kits in rural areas.
           </p>
+          <div>
+            <q-btn
+              :to="{
+                path: '/blog/info',
+                query: { id: 'de7bf629-b8bb-4fc2-b54c-4f233bdb5157' },
+              }"
+              color="purple"
+              >Read More</q-btn
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="relative px-10 mt-10 border-solid">
+    <section class="relative px-10 mt-10 mb-10 border-solid">
       <div class="content-wrapper h-full w-full grid grid-cols-2 gap-10">
         <div
           class="flex flex-col xs:col-span-2 gap-3 xs:order-last md:order-first md:col-span-1 justify-center"
@@ -82,11 +104,20 @@
           <p
             class="xs:text-base md:text-lg xs:text-center md:text-left font-medium"
           >
-            In partnership with the National Council of Child Rights Advocates
-            of Nigeria (NACCRAN), TAAF works to see that the rights of children
-            especially as it regards their rights Rights and Welfare of a Child
-            (ACRWC) are upheld
+            We work with NACCRAN to protect children’s rights under
+            the African Charter on the Rights & Welfare of a Child (ACRWC). 📍
+            Impact: Advocated for policy changes benefiting 100,000+ children.
           </p>
+          <div>
+            <q-btn
+              :to="{
+                path: '/blog/info',
+                query: { id: '061c6453-a6db-4e70-b378-2c6fadb4e31f' },
+              }"
+              color="purple"
+              >Read More</q-btn
+            >
+          </div>
         </div>
 
         <div
@@ -97,12 +128,52 @@
       </div>
     </section>
 
+     <section class="relative px-10 mt-10 mb-10 border-solid">
+      <div class="content-wrapper h-full w-full grid grid-cols-2 gap-10">
+        <div
+          class="project-right xs:col-span-2 xs:order-last md:order-first md:col-span-1 z-[11] flex justify-center items-center w-full relative"
+        >
+          <img
+            src="@/assets/img/hygiene.png"
+            class="w-[70%] rounded-md"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex flex-col xs:col-span-2 gap-3 xs:order-first md:order-last md:col-span-1 justify-center"
+        >
+          <p
+            class="font-bold xs:text-lg xs:text-center md:text-left md:text-3xl text-accent4"
+          >
+           Addressing Gaps in Policy & Access to Reproductive Healthcare for Women in Conflict
+
+          </p>
+          <p
+            class="xs:text-base md:text-lg xs:text-center md:text-left font-medium"
+          >
+            We advocate for policy reforms, improved healthcare infrastructure, and inter-agency collaboration to support displaced women and girls affected by conflict.
+
+          </p>
+          <div>
+            <q-btn
+              :to="{
+                path: '/blog/info',
+                query: { id: '9c5d26da-7676-46c4-b851-d9892e4c22ac' },
+              }"
+              color="purple"
+              >Read More</q-btn
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="absolute bottom-0 md:h-[12rem] left-0 w-full"
+      class="absolute bottom-0 md:h-[8rem] left-0 w-full"
       viewBox="0 0 1440 320"
       preserveAspectRatio="none"
-      style="margin-top: -2.5rem; width: 100%; display: block"
+      style="margin-top: -2.0rem; width: 100%; display: block"
     >
       <path
         fill="#7123B3E8"
@@ -113,7 +184,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    projects: [
+      {
+        title: "Maisha Save a Mother’s Life",
+        id: 1,
+        desc: " Through advocacy & awareness campaigns, we empower communities with the knowledge to reduce maternal mortality rates. 📍 Impact: Trained 100+ birth attendants & educated 10,000+ women on safe pregnancy practices. Distributed 2,000+ of mama kits to women in IDP camps and low income communities",
+      },
+    ],
+  }),
+};
 </script>
 
 <style>

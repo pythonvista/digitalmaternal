@@ -2,7 +2,7 @@
   <section class="overflow-hidden relative">
      <svg 
       xmlns="http://www.w3.org/2000/svg"
-      class="absolute z-[1] bottom-0  md:h-[10rem] left-0 w-full"
+      class="absolute md:z-[1111] bottom-0  md:h-[10rem] left-0 w-full"
       viewBox="0 0 1440 320"
       preserveAspectRatio="none"
       style="margin-top: -1.5rem; width: 100%; display: block"
@@ -12,9 +12,9 @@
         d="M0,224L40,218.7C80,213,160,203,240,213.3C320,224,400,256,480,240C560,224,640,160,720,144C800,128,880,160,960,149.3C1040,139,1120,85,1200,96C1280,107,1360,181,1400,218.7L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
       ></path>
     </svg>
-    <div class="landing-page-container ">
+    <div class="landing-page-container z-[111]">
       <div
-        class="landing-background-image  md:min-h-[80vh] md:bg-[url('https://i.imgur.com/vYVB5HS.png')] md:bg-cover md:bg-center xl:relative xs:static"
+        class="landing-background-image z-[111]  md:min-h-[80vh] md:bg-[url('https://i.imgur.com/vYVB5HS.png')] md:bg-cover md:bg-center xl:relative xs:static"
       >
         <div
           class="absolute xs:hidden md:block inset-0 bg-gradient-to-t from-black to-transparent"
@@ -43,7 +43,7 @@
               <br />
               MaternalRecordPro is a digital platform that automates manual
               record-keeping systems in primary healthcare centers across
-              Nigeria. By replacing outdated paper records with a seamless
+              Nigeria. <br> By replacing outdated paper records with a seamless
               digital process, we empower:
             </p>
             <ul class="list-outside mx-5 list-disc md:text-white">
@@ -55,8 +55,8 @@
                 M&E staff & policymakers to track maternal health outcomes.
               </li>
             </ul>
-            <div class="mt-4 ">
-              <span class="relative  w-12 h-12 group ">
+            <div class="mt-4 z-[111] ">
+              <span class="relative  z-[111]  w-12 h-12 group ">
                 <a
                   @click="
                     $router.push({
@@ -64,7 +64,7 @@
                       query: { id: 'efca7dac-2ab1-4591-9f93-ac9abacd3940' },
                     })
                   "
-                  class="md:absolute inset-0 w-full h-full opacity-100 group-hover:opacity-0 transition-opacity duration-300"
+                  class="md:absolute  z-[111] inset-0 w-full h-full opacity-100 group-hover:opacity-0 transition-opacity duration-300"
                 >
                   <svg
                     class="xs: fill-accent lg:fill-none"
@@ -97,7 +97,7 @@
                       query: { id: 'efca7dac-2ab1-4591-9f93-ac9abacd3940' },
                     })
                   "
-                  class="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  class="absolute  z-[111] inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
                   <svg
                     width="166"
