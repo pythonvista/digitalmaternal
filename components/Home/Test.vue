@@ -31,7 +31,7 @@
         <div
           class="overlay-button text-white border-2 border-white xs:w-full md:w-36 h-12 rounded-3xl flex items-center justify-center mt-7 hover:bg-accent duration-300 hover:border-accent"
         >
-          <a href="" class="flex gap-3 px-3 items-center">
+          <a @click="$router.push({path: '/about'})"  class="flex gap-3 px-3 items-center">
             Read more
             <svg
               width="25"

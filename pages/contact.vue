@@ -1,5 +1,5 @@
 <template>
-  <HomeContactUsContacts class="px-10"></HomeContactUsContacts>
+  <HomeContactUsContacts ></HomeContactUsContacts>
   <HomeContactUsJoinUs></HomeContactUsJoinUs>
 </template>
 
@@ -9,6 +9,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

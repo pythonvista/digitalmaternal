@@ -1,9 +1,10 @@
 import axios from 'axios'
 
-export default defineNuxtPlugin(async (nuxtApp) => { 
-    // const url = `https://emeterr-recharge-api.vercel.app/api`
+export default defineNuxtPlugin(async (nuxtApp) => {
+    const url = `https://maternalapi.vercel.app/api`
     const UseAxios = axios.create({
-      
+        baseURL: url,
+        // responseType: 'json',
         // responseType: 'json',
     });
 
