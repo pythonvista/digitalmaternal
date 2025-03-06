@@ -28,7 +28,7 @@
         <div class="landing-text ">
           <div
             data-aos="fade-right"
-            class="landing-text md:absolute md:text-white md:top-36 md:left-24 xs:text-accent4 xs:static xl: bg-transparent xs:bg-basecolor  xs:p-4"
+            class="landing-text md:absolute md:text-white md:mt-10 md:left-24 xs:text-accent4 xs:static xl: bg-transparent xs:bg-basecolor  xs:p-4"
           >
             <h1 class="xs:text-3xl font-bold md:text-8xl md:text-white">
               Maternal Record Pro

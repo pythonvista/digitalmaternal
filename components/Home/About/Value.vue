@@ -14,10 +14,19 @@
         </div>
 
         <div
-          class="overlay-content xl:text-white xl:text-lg xs:text-white pt-3 xl:w-full xs:w-full"
+          class="overlay-content xl:text-white xl:text-base xs:text-white pt-3 xl:w-full xs:w-full"
         >
           <p>
-           To drive safe motherhood practices through advocacy, digital health innovation, and community engagement.
+           We are committed to improving maternal health by:<br>
+            ✅ Advocating for stronger healthcare policies and systems. <br>
+            ✅ Building capacity through training for healthcare workers and communities. <br>
+            ✅ Creating demand for maternal and reproductive healthcare services. <br>
+            ✅ Increasing access to Sexual and Reproductive Health and Rights (SRHR) services and support.<br>
+
+            <p class="py-4"> 
+               At TAAF, our mission is to champion safe motherhood and maternal health rights by implementing innovative, inclusive, and community-driven programs. Through advocacy, capacity building, and awareness campaigns, we work to strengthen healthcare systems, improve access to maternal and newborn care, and drive policy changes that protect the lives of women and children.
+            </p>
+
 
           </p>
         </div>
@@ -43,8 +52,8 @@
         </div>
       </div>
     </div>
-    <div class="xs:col-span-5 md:col-span-3  h-full w-full">
-      <img class="w-full object-cover" src="@/assets/img/mission.jpg" alt="" />
+    <div class="xs:col-span-5 md:col-span-3  w-full border-2 border-red-500">
+      <img class="w-full object-cover h-full" src="@/assets/img/mission.jpg" alt="" />
     </div>
   </section>
 
@@ -70,12 +79,8 @@
           class="overlay-content xl:text-white xl:text-lg xs:text-white pt-3 xl:w-full xs:w-full"
         >
           <span>
-            A community where no woman has to die while giving birth, remain healthy
-            during pregnancy and after childbirth to nurse healthy children. In our
-            organisation, certain values guide our efforts towards achieving our vision
-            and mission; these values ensure that our beneficiaries are the priority at
-            every point in time. These values are Empathy, Passion, Confidence, Innovation
-            and Creativity
+            We envision a world where no woman dies from preventable pregnancy or childbirth complications—a world where every mother has access to quality healthcare, remains healthy before, during, and after childbirth, and raises thriving children in safe and supportive communities.
+
           </span>
         </div>
 
@@ -111,7 +116,7 @@
       <div
         class="xs:w-full overlay-text bg-[#7123B3E8] xl:p-16 xs:h-full md:h-full md:w-[800px] xs:p-8  z-[1]"
       >
-        <div class="overlay-header xl:text-white xs:text-white">
+        <div class="overlay-header xl:text-white xs:text-white py-2">
           <h2 class="xs:text-3xl md:text-5xl">Our Core Values</h2>
         </div>
 
@@ -119,7 +124,17 @@
           class="overlay-content xl:text-white xl:text-lg xs:text-white pt-3 xl:w-full xs:w-full"
         >
           <p>
-            In our organisation, certain values guide our efforts towards achieving our vision and mission; these values ensure that our beneficiaries are the priority at every point in time. These values are Empathy, Passion, Confidence, Innovation and Creativity.
+            At TAAF, our work is guided by five fundamental values:<br>
+
+            <p class="py-4">
+              ❤️ Empathy – We prioritize the needs and experiences of the women we serve.<br>
+              🔥 Passion – We are deeply committed to reducing maternal mortality.<br>
+              💪 Confidence – We believe in the power of advocacy and change.<br>
+              💡 Innovation – We adopt creative solutions to address maternal health challenges.<br>
+              🎨 Creativity – We develop unique programs that drive impactful results.
+            </p>
+              
+
           </p>
         </div>
 
@@ -145,7 +160,7 @@
       </div>
     </div>
     <div class="xs:col-span-5 md:col-span-3  h-full w-full">
-      <img class="w-full object-cover" src="@/assets/img/values.jpg" alt="" />
+      <img class="w-full h-full object-cover" src="@/assets/img/values.jpg" alt="" />
     </div>
   </section>
 
@@ -164,14 +179,14 @@
         class="xs:w-full overlay-text bg-[#7123B3E8] xl:p-16 md:h-full xs:h-full md:w-[800px] xs:p-8 "
       >
         <div class="overlay-header xl:text-white xs:text-white">
-          <h2 class="xs:text-3xl md:text-5xl">Our Believe</h2>
+          <h2 class="xs:text-3xl md:text-5xl">What We Believe</h2>
         </div>
 
         <div
           class="overlay-content xl:text-white xl:text-lg xs:text-white pt-3 xl:w-full xs:w-full"
         >
           <span>
-            We Believe That universal access to quality maternal care in pregnancy and childbirth is a basic human right.
+            We believe that universal access to quality maternal care during pregnancy and childbirth is a basic human right. No woman should die due to preventable complications.
           </span>
         </div>
 

@@ -3,7 +3,7 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 w-full px-10 py-10 items-center gap-5">
     <div>
       <p class="text-2xl font-semibold text-center sm:text-left">
-        Your Generous Gift Will Bring Joy And Purpose To Women Around The World
+        Every contribution helps us bring life-saving maternal care to more women and girls in underserved communities.
       </p>
     </div>
 
@@ -11,7 +11,7 @@
       <button
         class="uppercase font-semibold tracking-widest py-5 px-10 rounded-lg border-solid bg-yellow-500 border-2 border-yellow-500 hover:bg-transparent hover:border-2 hover:border-yellow-500 duration-300 hover:underline hover:text-yellow-500"
       >
-        Donate
+        Donate Now
       </button>
     </div>
   </div>

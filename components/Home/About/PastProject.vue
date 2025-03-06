@@ -5,7 +5,7 @@
         <div class="border-b border-black w-[10%]"></div>
         <span
           class="md:text-2xl xs:text-lg md:font-semibold xs:font-medium tracking-wider py-8 px-5"
-          >Projects</span
+          >Our Impact</span
         >
         <div class="border-b border-black w-[10%]"></div>
       </div>
@@ -16,15 +16,26 @@
     </div>
 
     <div class="content py-4">
-        <p class=" text-lg  text-center">
-            In July 2015, TAAF partnered with the FCT primary healthcare board to give safe motherhood information and mama kits to women in PHC kubwa. <br>
+        <span class=" text-lg ">
+          <p>✔ July 2015 – Partnered with the FCT Primary Healthcare Board to distribute safe motherhood information and mama kits to pregnant women at PHC Kubwa.</p>  
 
-            Still with technical support from the FCT Primary Healthcare Board in partnership with the Kabash Love Foundation, in October 2015 we took advocacy on safe motherhood to Dakwa community in Bwari area council Abuja. We also gave mama kits to pregnant women to encourage them attend antenatal clinics. One major challenges women in low income communities face during pregnancy and childbirth is purchasing the essentials for delivery. This is one major reasons why women give birth at home instead in health centers. <br>
+          <p>✔ October 2015 – In partnership with the FCT Primary Healthcare Board and Kabash Love Foundation, conducted safe motherhood advocacy in Dakwa community, Bwari Area Council, Abuja, distributing mama kits to encourage antenatal care attendance.</p>
 
-            Previous Projects
-            In February 2016 still in partnership with the FCT Primary Health Care Board, TAAF took advocacy and support to women in Kabusa IDP camp. The FCT primary health care board gave us technical support to immunize children, gave information on water hygiene and sanitation especially in pregnancy and HIV testing and screening. Pregnant women were also given mama kits.
+          <div class="py-5">
+            <p>✔ February 2016 – Provided maternal health support at Kabusa IDP Camp, in collaboration with the FCT Primary Healthcare Board. Our team:</p>
 
-        </p>
+            <ol class="py-3 list-decimal pl-10">
+              <li>Immunized children</li>
+              <li>Educated women on water hygiene and sanitation during pregnancy</li>
+              <li>Conducted HIV testing and screening</li>
+              <li>Distributed mama kits to pregnant women</li>
+            </ol>
+          </div>
+          
+
+          
+
+        </span>
     </div>
 
 

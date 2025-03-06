@@ -1,8 +1,22 @@
 <template>
   <section class="px-5">
-    <div class="md:py-10 xs:py-3 text-center">
-      <p class="uppercase md:text-5xl xs:text-xl md:py-10 xs:py-2 font-bold">What we do</p>
-      <p class="uppercase md:text-base xs:text-xs font-semibold tracking-widest">We contribute our own quota to the global move of safe motherhood through</p>
+    <span class="text-center py-2">
+        <p class="uppercase md:text-5xl xs:text-xl md:py-10 xs:py-2 font-bold">What we do</p>
+    </span>
+
+    <div class="md:py-5 xs:py-3 flex items-center justify-center">
+        
+
+        <span class="uppercase md:text-base xs:text-xs font-semibold tracking-widest">
+            <p class="md:pb-5 md:text-2xl ">TAAF contributes to the global movement for safe motherhood through:</p>
+
+            <p>🩺 Training – Equipping healthcare workers with life-saving skills.</p><br>
+            <p>📢 Advocacy – Driving policy changes for maternal health.</p><br>
+            <p>🏥 Health Systems Strengthening – Improving healthcare infrastructure and services.</p><br>
+            <p>📣 Community Awareness – Educating women and families on reproductive health.</p><br>
+            <p>🤝 Stakeholder Consultations – Collaborating with policymakers and healthcare providers.</p><br>
+            <p>📊 Monitoring & Evaluation (M&E) – Measuring impact and refining strategies.</p><br> 
+        </span>
     </div>
 
     <div class="xs:hidden lg:items-center lg:justify-end lg:space-x-3 lg:flex">
