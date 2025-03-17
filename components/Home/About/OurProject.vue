@@ -54,7 +54,7 @@
     <div class="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-full w-full gap-6 pb-8 mt-12 overflow-x-auto sm:mt-16 snap-x relative">
         <div class="relative snap-start scroll-ml-6 shrink-0 md:h-[450px] xs:h-auto  last:pr-6 rounded-lg">
           <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-lg"></div>
-            <img class=" h-full bg-cover w-full rounded-lg" src="https://i.imgur.com/fa8cPRr.jpeg" alt="" />
+            <img class=" h-full bg-cover w-full rounded-lg" src="https://digitalmaternal.vercel.app/_nuxt/child.e703841b.png" alt="" />
             <span class="absolute bottom-14 flex items-center justify-end flex-col h-full  w-full text-white">
               <p class="text-2xl text-center pb-7">CHILD RIGHTS <br> ADVOCACY</p>
               <button class="text-orange-500 uppercase relative after:absolute after:w-0 after:h-[2px] after:bg-orange-500 after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">Read More</button>
@@ -63,27 +63,28 @@
         </div>
         <div class="relative snap-start scroll-ml-6 shrink-0 md:h-[450px] xs:h-auto  last:pr-6 rounded-lg">
           <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-lg"></div>
-            <img class=" h-full bg-cover w-full rounded-lg" src="https://i.imgur.com/fa8cPRr.jpeg" alt="" />
+            <img class=" h-full bg-cover w-full rounded-lg" src="https://digitalmaternal.vercel.app/_nuxt/hygiene.8f1f5d03.png" alt="" />
             <span class="absolute bottom-14 flex items-center justify-end flex-col h-full  w-full text-white">
-              <p class="text-2xl text-center pb-7">CHILD RIGHTS <br> ADVOCACY</p>
+              <p class="text-2xl text-center pb-7">HER Hygiene & HER (HHH) Campaign</p>
               <button class="text-orange-500 uppercase relative after:absolute after:w-0 after:h-[2px] after:bg-orange-500 after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">Read More</button>
             </span>
             
         </div>
         <div class="relative snap-start scroll-ml-6 shrink-0 md:h-[450px] xs:h-auto  last:pr-6 rounded-lg">
           <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-lg"></div>
-            <img class=" h-full bg-cover w-full rounded-lg" src="https://i.imgur.com/fa8cPRr.jpeg" alt="" />
+            <img class=" h-full bg-cover w-full rounded-lg" src="https://digitalmaternal.vercel.app/_nuxt/projectimg.045066a8.png" alt="" />
             <span class="absolute bottom-14 flex items-center justify-end flex-col h-full  w-full text-white">
-              <p class="text-2xl text-center pb-7">CHILD RIGHTS <br> ADVOCACY</p>
+              <p class="text-2xl text-center pb-7">Maisha Save a
+Mother’s Life</p>
               <button class="text-orange-500 uppercase relative after:absolute after:w-0 after:h-[2px] after:bg-orange-500 after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">Read More</button>
             </span>
             
         </div>
         <div class="relative snap-start scroll-ml-6 shrink-0 md:h-[450px] xs:h-auto  last:pr-6 rounded-lg">
           <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-lg"></div>
-            <img class=" h-full bg-cover w-full rounded-lg" src="https://i.imgur.com/fa8cPRr.jpeg" alt="" />
+            <img class=" h-full bg-cover w-full rounded-lg" src="https://i.imgur.com/kIuoJHg.jpeg" alt="" />
             <span class="absolute bottom-14 flex items-center justify-end flex-col h-full  w-full text-white">
-              <p class="text-2xl text-center pb-7">CHILD RIGHTS <br> ADVOCACY</p>
+              <p class="text-xl text-center pb-7">Addressing Gaps in Policy & Access to Reproductive Healthcare for Women in Conflict</p>
               <button class="text-orange-500 uppercase relative after:absolute after:w-0 after:h-[2px] after:bg-orange-500 after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">Read More</button>
             </span>
             

@@ -32,7 +32,7 @@
   <!-- Text Section (second on small screens) -->
   <div class="flex flex-col w-full justify-center items-center sm:items-start gap-4 p-5 order-1 sm:order-2">
     <span class="font-semibold xs:text-2xl md:text-3xl">Previous Projects</span>
-    <span class="text-lg xs:text-center w-full">
+    <span class="text-lg xs:text-center md:text-left w-full">
       In February 2016, still in partnership with the FCT Primary Health Care Board, TAAF took advocacy and support to women in Kabusa IDP camp. The FCT primary health care board gave us technical support to immunize children, gave information on water hygiene and sanitation, especially in pregnancy and HIV testing and screening. Pregnant women were also given mama kits.
     </span>
   </div>
